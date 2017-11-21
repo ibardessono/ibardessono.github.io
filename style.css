@@ -1,0 +1,64 @@
+/* comment */
+
+*  {
+	font-family: "Helvetica" "Times New Roman" sans-serif;
+}
+
+img.profile {
+	border-radius: 12px;
+	height: 300px;
+	min-height: 50px;
+	max-height: 100%;
+	width: auto;
+	position: relative;
+	margin: 0px 5px 10px 5px;
+	float:right;
+}
+
+img.icon {
+	height: 43px;
+	max-height: 100px;
+	width: auto;
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
+}
+
+.summary {
+	float: left;
+	padding: 0px 20px;
+}
+
+h4 {
+	text-decoration: underline;
+}
+
+p {
+	padding: 0px 10px 0px 0px;
+	right: 2px;
+}
+
+li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	color: #f20000;
+}
+
+#my_links {
+	margin: -10px 0px 10px 0px;
+}
+
+.roman {
+	list-style-type: lower-roman;
+}
