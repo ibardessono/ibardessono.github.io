@@ -8,6 +8,11 @@ body {
 
 h3 {
 	color: black;
+	margin: 5px 5px;
+}
+
+p {
+	margin: 10px 10px;
 }
 
 .extend {
@@ -32,6 +37,7 @@ h3 {
 	background-color: #5D5851;
 	color: white;
 	text-align: center;
+	padding: 0px 10px;
 }
 
 
@@ -87,6 +93,11 @@ h3 {
 	float: right;
 	height: 60%;
 	margin: -5px 20px;
+}
+
+#logo {
+	width: 25%;
+	float: right;
 }
 
 a:hover {
