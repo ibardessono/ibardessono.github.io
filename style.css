@@ -12,11 +12,7 @@ h3 {
 }
 
 p {
-	margin: 10px 10px;
-}
-
-.extend {
-	height: 100%;
+	margin: 10px 20px;
 }
 
 .wrapper {
@@ -26,48 +22,57 @@ p {
 	left: 0;
 	right: 0;
 	background-color: #C2C1BD;
-	margin: 10px;
+	margin: 10px 20px;
 }
 
+.index {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url("https://www.crestawards.org/site-content/uploads/2016/10/Make-your-own-tea-bag-1-1024x675.jpg");
+	margin: 10px 20px;
+	}
+
 .footer {
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 	width: 100%;
 	background-color: #5D5851;
 	color: white;
-	text-align: center;
-	padding: 0px 10px;
 }
 
-
-.logo {
-	float: left;
-	height: 50px;
-	padding: 5px 5px;
+.head {
+	height: 25px;
 }
-
 
 .container {
     overflow: hidden;
     background-color: #5D5851;
     font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
 
-.container h1 {
-	float: left;
+#title {
+	display: inline-block;
 	color: white;
+	/* border-left: 2px solid;
+	border-right: 2px solid; */
 	font-size: 22px;
 	padding: 0px 10px;
+	margin: 0px 10px;
+	text-align: center;
 }
 
-
 .container a {
-    float: left;
+    display: inline-block;
     font-size: 16px;
     color: #C0A27F;
     text-align: center;
     padding: 20px 16px;
+	margin: 0px 10px;
     text-decoration: none;
 }
 
@@ -82,16 +87,23 @@ p {
 
 #table {
 	border: 2px solid;
-	float: left;
+	float: right;
 	width:25%;
 	margin: 10px;
 	
 }
 
+#profile {
+	border: 2px solid;
+	float: left;
+	width: 23%;
+	margin: 10px;
+}
+
 #clip {
 	border: 2px solid;
 	float: right;
-	height: 60%;
+	height: 55%;
 	margin: -5px 20px;
 }
 
