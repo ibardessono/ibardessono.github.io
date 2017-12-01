@@ -31,7 +31,8 @@ p {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-image: url("https://www.crestawards.org/site-content/uploads/2016/10/Make-your-own-tea-bag-1-1024x675.jpg");
+	background-image: url("images/11.jpg");
+	background-size: cover;
 	margin: 10px 20px;
 	}
 
@@ -64,6 +65,18 @@ p {
 	padding: 0px 10px;
 	margin: 0px 10px;
 	text-align: center;
+}
+
+.image_container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	float: left;
 }
 
 .container a {
@@ -109,7 +122,8 @@ p {
 
 #logo {
 	width: 25%;
-	float: right;
+	float: left;
+	margin: 20px;
 }
 
 a:hover {
