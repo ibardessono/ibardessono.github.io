@@ -78,6 +78,10 @@ p {
 	color: #C0A27F;
 }
 
+.img_box {
+	text-align: center;
+}
+
 .big {
 	color: #5D5851;
 	float: left;
@@ -124,10 +128,24 @@ p {
 	margin: 10px;
 }
 
-#plate {
+#plate_1 {
+	border: 1px solid;
+	float: left;
+	width: 15%;
+	margin: 10px;
+}
+
+
+#plate_2 {
+	border: 1px solid;
+	width: 15%;
+	margin: 10px;
+}
+
+#plate_3 {
 	border: 1px solid;
 	float: right;
-	width: 20%;
+	width: 15%;
 	margin: 10px;
 }
 
