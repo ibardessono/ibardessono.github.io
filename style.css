@@ -92,14 +92,12 @@ p {
 }
 
 #board {
-	border: 1px solid;
 	float: right;
 	height: 25%;
 	margin: 5px;
 }
 
 #clip {
-	border: 2px solid;
 	float: right;
 	height: 55%;
 	margin: -5px 20px;
@@ -107,29 +105,29 @@ p {
 
 
 #logo {
-	height: 70px;
-	border: 3px solid;
+	height: 125px;
+	padding: 5px;
+	margin: 10px;
+    /*
+    border: 3px solid;
 	border-radius: 30px;
 	-moz-border-radius:30px;
     -webkit-border-radius:30px;
-	padding: 5px;
-	margin: 10px;
 	background: white;
-	background: -webkit-linear-gradient(left top, white, #a8a8a8); /* For Safari 5.1 to 6.0 */
-	background: -o-linear-gradient(bottom right, white, #a8a8a8); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(bottom right, white, #a8a8a8); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(to bottom right, white, #a8a8a8); /* Standard syntax */
+	background: -webkit-linear-gradient(left top, white, #a8a8a8); 
+	background: -o-linear-gradient(bottom right, white, #a8a8a8); 
+	background: -moz-linear-gradient(bottom right, white, #a8a8a8);
+	background: linear-gradient(to bottom right, white, #a8a8a8); 
+    */
 }
 
 #profile {
-	border: 2px solid;
 	float: left;
 	width: 23%;
 	margin: 10px;
 }
 
 #plate_1 {
-	border: 1px solid;
 	float: left;
 	width: 15%;
 	margin: 10px;
@@ -137,13 +135,11 @@ p {
 
 
 #plate_2 {
-	border: 1px solid;
 	width: 15%;
 	margin: 10px;
 }
 
 #plate_3 {
-	border: 1px solid;
 	float: right;
 	width: 15%;
 	margin: 10px;
@@ -162,7 +158,6 @@ p {
 }
 
 #table {
-	border: 1px solid;
 	float: right;
 	width:25%;
 	margin: 10px;
