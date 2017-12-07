@@ -1,7 +1,7 @@
 /* comment */
 
 body {
-	background-color: #9CAC88;
+	background-color: #C2C1BD;
 	color: black;
 	font-family: Helvetica, Geneva, sans-serif;
 	font-size: 100%;
@@ -13,7 +13,7 @@ h3 {
 }
 
 p {
-	margin: 10px 20px;
+	line-height: 1.5em;
 }
 
 
@@ -23,19 +23,19 @@ p {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #C2C1BD;
+	background-color: #9CAC88;
 	margin: 10px 20px;
 }
 
-.index {
-	height: 85%;
-	background-image: url("images/11.jpg");
-	background-size: cover;
-
+.index  {
+	position: relative;
+	top: 0;
+	left: 0;
+	overflow: hidden;
 	}
 
 .footer {
-	position: absolute;
+	position: relative;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -44,7 +44,7 @@ p {
 }
 
 .footer p {
-	float: left;
+
 }
 
 .head {
@@ -91,6 +91,10 @@ p {
 	padding: 0px 4px 0px 2px;
 }
 
+.question {
+	
+}
+
 #board {
 	float: right;
 	height: 25%;
@@ -103,8 +107,20 @@ p {
 	margin: -5px 20px;
 }
 
+#cover {
+	position: relative;
+	top: 0;
+	left: 0;
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	
+}
 
 #logo {
+	position: absolute;
+	top: 0;
+	left: 0;
 	height: 125px;
 	padding: 5px;
 	margin: 10px;
