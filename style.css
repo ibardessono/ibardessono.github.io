@@ -1,7 +1,7 @@
 /* comment */
 
 body {
-	background-color: #C2C1BD;
+	background-color: #9CAC88;
 	color: black;
 	font-family: Helvetica, Geneva, sans-serif;
 	font-size: 100%;
@@ -9,22 +9,28 @@ body {
 
 h3 {
 	color: black;
-	margin: 10px 5px;
+	margin: 10px 10px;
+	
 }
 
 p {
 	line-height: 1.5em;
+	margin: 5px;
 }
 
+.about {
+	width: 74%;
+	float: right;
+}
 
 .wrapper {
 	position: absolute;
 	top: 0;
-	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #9CAC88;
-	margin: 10px 20px;
+	min-height: 100%;
+	background-color: #C2C1BD;
+	margin: 10px 10px;
 }
 
 .index  {
@@ -35,16 +41,10 @@ p {
 	}
 
 .footer {
-	position: relative;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+	display: block;
 	background-color: #5D5851;
 	color: white;
-}
-
-.footer p {
-
+	text-align: center;
 }
 
 .head {
@@ -79,7 +79,21 @@ p {
 }
 
 .img_box {
+	display: block;
 	text-align: center;
+	margin: 10px;
+}
+
+.img_box img {
+	width: 20%;
+}
+
+.float_left {
+	float: left;
+}
+
+.float_right {
+	float: right;
 }
 
 .big {
@@ -91,14 +105,32 @@ p {
 	padding: 0px 4px 0px 2px;
 }
 
-.question {
-	
+.services {
+	width: 70%;
+}
+
+.services p {
+	margin: 10px 20px;
+}
+
+.figure {
+	float: right;
+	width: 30%;
+	text-align: center;
+	font-style: italic;
+	font-size: smaller;
+	text-indent: 0;
+	border: thin silver solid;
+	margin: 0.5em;
+	padding: 0.5em;
 }
 
 #board {
+	position: absolute;
+	right: 0;
 	float: right;
 	height: 25%;
-	margin: 5px;
+	margin: 10px;
 }
 
 #clip {
@@ -109,33 +141,23 @@ p {
 
 #cover {
 	position: relative;
+	display: block;
 	top: 0;
 	left: 0;
-	height: auto;
 	width: 100%;
-	overflow: hidden;
 	
 }
 
 #logo {
 	position: absolute;
+	display: block;
 	top: 0;
 	left: 0;
 	height: 125px;
 	padding: 5px;
 	margin: 10px;
-    /*
-    border: 3px solid;
-	border-radius: 30px;
-	-moz-border-radius:30px;
-    -webkit-border-radius:30px;
-	background: white;
-	background: -webkit-linear-gradient(left top, white, #a8a8a8); 
-	background: -o-linear-gradient(bottom right, white, #a8a8a8); 
-	background: -moz-linear-gradient(bottom right, white, #a8a8a8);
-	background: linear-gradient(to bottom right, white, #a8a8a8); 
-    */
 }
+
 
 #profile {
 	float: left;
@@ -145,20 +167,15 @@ p {
 
 #plate_1 {
 	float: left;
-	width: 15%;
-	margin: 10px;
 }
 
 
 #plate_2 {
-	width: 15%;
-	margin: 10px;
+
 }
 
 #plate_3 {
 	float: right;
-	width: 15%;
-	margin: 10px;
 }
 
 
@@ -175,12 +192,29 @@ p {
 
 #table {
 	float: right;
-	width:25%;
+	width: 35%;
 	margin: 10px;
 	
 }
 
+#scroll-wrap {
+    position: relative;
+    height: 100%;
+}
+#scroll {
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    overflow: auto;
+}
 
+#set {
+	position: absolute;
+	right: 0;
+	float: right;
+	height: 40%;
+	margin: 5px;
+}
 
 a:hover {
 	color: #943E0F;
